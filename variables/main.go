@@ -15,12 +15,12 @@ func main() {
 	var d = true
 	fmt.Println(d)
 
-	// variable declared whiout a corresponding initialization are zero-valued.
+	// Variable declared whiout a corresponding initialization are zero-valued.
 	// for example, the zero value for an int is 0
 	var e int
 	fmt.Println(e)
 
-	// the := syntax is shorthand for declaring and initializing a variable,
+	// The := syntax is shorthand for declaring and initializing a variable,
 	// e.g for var f string = "apple"
 	f := "apple"
 	fmt.Println(f)
